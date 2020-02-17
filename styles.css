@@ -37,3 +37,21 @@ header nav{
     float: right;
     margin-top: 10px;
 }
+
+#showcase{
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-image: url("/image/africanlady.jpeg");
+    color: #FF9900;
+}
+#showcase p{
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: justify; /* For Edge */
+    text-align: right;
+}
+#showcase table{
+    text-align: justify; /* For Edge */
+    text-align: right;
+    color: #FF9900;
+}
