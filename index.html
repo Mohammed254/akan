@@ -71,7 +71,7 @@
 </Section>
 <section id="dates">
     <div class="container">
-        <form>
+        <form onsubmit="return false" method="post">
             <span style="font-size: 18px;">Date Of Birth
             <br>
             <select name="day">
@@ -256,12 +256,12 @@
                  </select>
                  <br>
                  <br>
-                 <input type="radio" name="male" value="male"> Male
+                 <input type="radio" name="male" value="male"checked> Male
                  <input type="radio" name="female"> Female
                  <br>
-                 <input type="submit">
-        </form>
-        <h2 id="akan-name"></h2>
+                 <input type="submit" value="submit" onclick="output()">
+        <h2 id="outcome"></h2>
+    </form>
     </div>
     </section>
     <footer>
@@ -270,6 +270,6 @@
             <p>This is an independent project at <a href="https://moringaschool.com/">Moringa School</a> prep programme.</p>
         </div>
         </footer>
-        </body>
         <script src="script.js"></script>
+        </body>
         </html>
