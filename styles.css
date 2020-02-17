@@ -10,3 +10,30 @@ body{
     overflow: hidden;
 }
 
+header{
+    background:#800000;
+    color:#ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #FEDE00 7px solid;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
