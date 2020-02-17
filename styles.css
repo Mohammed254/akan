@@ -55,3 +55,22 @@ header nav{
     text-align: right;
     color: #FF9900;
 }
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #800000;
+text-align: center;
+color: #FFFFFF;
+}
+#dates{
+    position: relative;
+    margin-top: 20px;
+    padding: 20px;
+}
+#akan-name{
+    text-align: justify; /* For Edge */
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+
